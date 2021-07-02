@@ -30,7 +30,7 @@ static void help(int exit_code = 1)
   fprintf(stderr, "  -g                    Track histogram of PCs\n");
   fprintf(stderr, "  -l                    Generate a log of execution\n");
 #ifdef HAVE_BOOST_ASIO
-  fprintf(stderr, "  -s                    Command I/O via socket (use with -d)\n");  
+  fprintf(stderr, "  -s                    Command I/O via socket (use with -d)\n");
 #endif
   fprintf(stderr, "  -h, --help            Print this help message\n");
   fprintf(stderr, "  -H                    Start halted, allowing a debugger to connect\n");
